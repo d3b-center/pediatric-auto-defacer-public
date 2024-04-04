@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+    peds-auto-deface:
+        image: afam00/peds-brain-auto-deface:latest
+        hostname: 'peds-auto-deface'
+        volumes:
+            - ./input:/input
+            - ./output:/output
