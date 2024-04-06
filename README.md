@@ -12,7 +12,7 @@ If you use this tool in your work, please cite the following reference according
 
 ### Organization
 
-Input files must be located in an `input/` directory folder (called "input") in NIfTi file format. The exact naming of the files does not matter, the container will process all NIfTi files in the `input/` directory separately (the format of the output name of each file will be: `[intput-file-name]_defaced.nii.gz`).
+Input files must be located in an `input/` directory folder (called "input") in NIfTi file format. The exact naming of the files does not matter, the container will process all NIfTi files in the `input/` directory separately (the format of the output name of each file will be: `[input-file-name]_defaced.nii.gz`).
 
 For example input files could describe the image type:
 ```
