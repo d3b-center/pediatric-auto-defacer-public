@@ -14,14 +14,14 @@ If you use this tool in your work, please cite the following reference according
 
 Input files must be located in an `input/` directory folder (called "input") in NIfTi file format. The exact naming of the files does not matter, the container will process all NIfTi files in the `input/` directory separately (the format of the output name of each file will be: `[input-file-name]_defaced.nii.gz`).
 
-For example input files could describe the image type:
+For example input files for a single subject could describe the image type:
 ```
 input/
     t1ce.nii.gz
     ...
 ```
 
-Or include the subject IDs:
+Or include the subject IDs if there are more than one subject:
 
 ```
 input/
@@ -49,11 +49,12 @@ input/
     docker compose up
     ```
 
-It takes about an hour to fully process 1 MRI file (with 16 GB memory, 2 GHz 4 cores; however, this depends on your machine specs). Defaced images will be stored in an `output/` folder with files named `[input-file-name]_defaced.nii.gz`, for example:
+It takes about an hour to fully process 1 MRI file (with 16 GB memory, 2 GHz 4 cores; however, this depends on your machine specs). Defaced images will be stored in an `output/` folder with files named `[input-file-name]_defaced.nii.gz` and the model-predicted face mask as `[input-file-name]_face_mask.nii.gz`, for example:
 
 ```
 input/
     t1ce_defaced.nii.gz
+    t1ce_face_mask.nii.gz
     ...
 ```
 
