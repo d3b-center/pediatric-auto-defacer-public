@@ -4,6 +4,8 @@ This tool can be used to automatically deface pediatric brain MRIs (trained on T
 
 Input files can be unprocessed or pre-processed images.
 
+If further training/fine-tuning is desired, the trained model weights can be accessed here: [https://drive.google.com/file/d/1P06VrdaMxX_VENOYVRyvFgJN82SMEsMz/view?usp=sharing](https://drive.google.com/file/d/1P06VrdaMxX_VENOYVRyvFgJN82SMEsMz/view?usp=sharing)
+
 If you use this tool in your work, please cite the following reference accordingly:
 
 [...]
