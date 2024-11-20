@@ -2,3 +2,4 @@
 input/
 nnUNet_*
 *.nii*
+testing/
