@@ -8,7 +8,9 @@ If further training/fine-tuning is desired, the trained model weights can be acc
 
 If you use this tool in your work, please cite the following reference accordingly:
 
-[...]
+Familiar, A. M., Khalili, N., Khalili, N., Schuman, C., Grove, E., Viswanathan, K., ... & Nabavizadeh, A. (2024). Empowering Data Sharing in Neuroscience: A Deep Learning De-identification Method for Pediatric Brain MRIs. American Journal of Neuroradiology.
+
+Link to paper: [https://doi.org/10.3174/ajnr.A8581](https://doi.org/10.3174/ajnr.A8581)
 
 ## STEP 1: Prepare the input files
 
