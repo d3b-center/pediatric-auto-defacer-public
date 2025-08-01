@@ -62,6 +62,16 @@ input/
     ...
 ```
 
+## Notes
+
+If adapting to Apptainer/Singularity or other services, the home directory may need to be specified in the run command. Within the Docker container this is the root directory:
+
+```
+/input
+/nnUNet_*
+/run.py
+/apply_face_mask.py
+```
 
 ## Issues
 
